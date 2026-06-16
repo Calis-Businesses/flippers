@@ -8,7 +8,6 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
 <div class="frame">
@@ -23,9 +22,8 @@
   </a>
   <button class="menu-toggle" id="menuBtn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navMenu">&#9776;</button>
   <nav id="navMenu" role="navigation" aria-label="Main navigation">
-    <a href="index.html" aria-current="page">Home</a>
+    <a href="index.html">Home</a>
     <a href="classes.html">Classes</a>
-    <a href="schedule.html">Schedule</a>
     <a href="xtreme-cheer.html">Xtreme Cheer</a>
     <a href="swag.html">Swag</a>
     <a href="about.html">About</a>
@@ -37,7 +35,6 @@
   </div>
 </header>
 
-
 <div class="page-hero">
   <h1>Register</h1>
   <p>Sign up online or stop by the gym. We would love to meet your family.</p>
@@ -46,64 +43,30 @@
 <section class="register-wrap">
   <h2 style="font-family:'Fredoka',sans-serif;color:var(--pinkdeep);font-size:22px;margin-bottom:8px">Online Registration</h2>
   <p style="font-size:15px;line-height:1.6;margin-bottom:24px;color:#3a343a">
-    Select your program below and complete the form. If you are registering more than one child, please submit a separate form for each athlete. Once submitted, the Flippers team will follow up within one business day to confirm enrollment and next steps.
+    Select your program in the form below and complete all fields. If you are registering more than one child, please submit a separate form for each athlete. Once submitted, the Flippers team will follow up within one business day to confirm enrollment and next steps.
   </p>
 
   <!-- ══════════════════════════════════════════════════════
-       RECREATIONAL PROGRAMS
+       RECREATIONAL PROGRAMS — ONE FORM COVERS ALL
        ══════════════════════════════════════════════════════ -->
   <h3 style="font-family:'Fredoka',sans-serif;color:var(--ink);font-size:18px;margin-bottom:16px;padding-bottom:6px;border-bottom:2px solid var(--yellow)">Recreational Programs</h3>
+  <p style="font-size:14px;color:#6b6469;margin-bottom:16px">
+    Covers: Toddler &bull; Tumble Bug Gym &bull; School Age Gymnastics &bull; Half Dance / Half Gymnastics &bull; Ninjastics / Parkour
+  </p>
 
-  <!-- TODDLER -->
-  <div style="margin-bottom:28px">
-    <h4 style="font-family:'Fredoka',sans-serif;color:var(--pinkdeep);font-size:16px;margin-bottom:6px">Toddler (Parent-and-Me) &mdash; Ages 18 mo to 3</h4>
-    <!-- SWAP: Replace placeholder div below with Google Form iframe embed -->
-    <div class="form-embed-area" id="toddler">
-      <p><strong>Toddler Registration Form goes here.</strong></p>
-      <p>Embed code: <code>&lt;iframe src="https://docs.google.com/forms/d/e/YOUR_ID/viewform?embedded=true" width="100%" height="900"&gt;&lt;/iframe&gt;</code></p>
-    </div>
-  </div>
-
-  <!-- TUMBLE BUG -->
-  <div style="margin-bottom:28px">
-    <h4 style="font-family:'Fredoka',sans-serif;color:var(--pinkdeep);font-size:16px;margin-bottom:6px">Tumble Bug Gym &mdash; Ages 2 to 5</h4>
-    <div class="form-embed-area" id="tumble-bug">
-      <p><strong>Tumble Bug Registration Form goes here.</strong></p>
-      <p>Embed code: <code>&lt;iframe src="https://docs.google.com/forms/d/e/YOUR_ID/viewform?embedded=true" width="100%" height="900"&gt;&lt;/iframe&gt;</code></p>
-    </div>
-  </div>
-
-  <!-- SCHOOL AGE GYMNASTICS -->
-  <div style="margin-bottom:28px">
-    <h4 style="font-family:'Fredoka',sans-serif;color:var(--pinkdeep);font-size:16px;margin-bottom:6px">School Age Gymnastics &mdash; Ages 5 and up</h4>
-    <div class="form-embed-area" id="gymnastics">
-      <p><strong>School Age Gymnastics Registration Form goes here.</strong></p>
-      <p>Embed code: <code>&lt;iframe src="https://docs.google.com/forms/d/e/YOUR_ID/viewform?embedded=true" width="100%" height="900"&gt;&lt;/iframe&gt;</code></p>
-    </div>
-  </div>
-
-  <!-- HALF DANCE HALF GYMNASTICS -->
-  <div style="margin-bottom:28px">
-    <h4 style="font-family:'Fredoka',sans-serif;color:var(--pinkdeep);font-size:16px;margin-bottom:6px">Half Dance / Half Gymnastics &mdash; Ages 4 and up</h4>
-    <div class="form-embed-area" id="dance-gym">
-      <p><strong>Half Dance / Half Gymnastics Registration Form goes here.</strong></p>
-      <p>Embed code: <code>&lt;iframe src="https://docs.google.com/forms/d/e/YOUR_ID/viewform?embedded=true" width="100%" height="900"&gt;&lt;/iframe&gt;</code></p>
-    </div>
-  </div>
-
-  <!-- NINJASTICS -->
-  <div style="margin-bottom:36px">
-    <h4 style="font-family:'Fredoka',sans-serif;color:var(--pinkdeep);font-size:16px;margin-bottom:6px">Ninjastics / Parkour &mdash; Ages 5 and up</h4>
-    <div class="form-embed-area" id="ninjastics">
-      <p><strong>Ninjastics / Parkour Registration Form goes here.</strong></p>
-      <p>Embed code: <code>&lt;iframe src="https://docs.google.com/forms/d/e/YOUR_ID/viewform?embedded=true" width="100%" height="900"&gt;&lt;/iframe&gt;</code></p>
-    </div>
+  <!-- SWAP: Delete the div below and paste your Google Form iframe embed code in its place -->
+  <!-- Get embed code from: Google Forms → three dots menu → Embed HTML -->
+  <div class="form-embed-area" id="recreational">
+    <img src="images/bug-green.png" alt="" style="height:80px;margin-bottom:12px;opacity:.7">
+    <p><strong>General Registration Form goes here.</strong></p>
+    <p>From Google Forms, click the three dots menu → <strong>Embed HTML</strong> → copy the code and paste it here in place of this entire div.</p>
+    <p>Paste code looks like:<br><code>&lt;iframe src="https://docs.google.com/forms/d/e/YOUR_ID/viewform?embedded=true" width="100%" height="900" frameborder="0"&gt;Loading...&lt;/iframe&gt;</code></p>
   </div>
 
   <!-- ══════════════════════════════════════════════════════
-       XTREME CHEER — TWO FORMS
+       XTREME CHEER — TWO SEPARATE FORMS
        ══════════════════════════════════════════════════════ -->
-  <h3 style="font-family:'Fredoka',sans-serif;color:var(--ink);font-size:18px;margin-bottom:8px;padding-bottom:6px;border-bottom:2px solid var(--yellow)">Xtreme Cheer (Competitive Team)</h3>
+  <h3 style="font-family:'Fredoka',sans-serif;color:var(--ink);font-size:18px;margin-bottom:8px;margin-top:40px;padding-bottom:6px;border-bottom:2px solid var(--yellow)">Xtreme Cheer (Competitive Team)</h3>
   <div class="callout" style="margin-bottom:20px">
     <strong>Two forms required.</strong> Both must be submitted to secure your athlete&#39;s spot. <a href="xtreme-cheer.html">Read the full season overview</a> before registering.
   </div>
@@ -112,10 +75,10 @@
   <div style="margin-bottom:28px" id="xc-registration">
     <h4 style="font-family:'Fredoka',sans-serif;color:var(--pinkdeep);font-size:16px;margin-bottom:6px">Form 1: Xtreme Cheer Registration Form</h4>
     <p style="font-size:14px;color:#6b6469;margin-bottom:10px">Athlete and parent contact info, address, medical conditions, and emergency contact.</p>
-    <!-- SWAP: Replace placeholder div below with Google Form iframe embed -->
+    <!-- SWAP: Delete the div below and paste your Xtreme Cheer Registration Google Form iframe here -->
     <div class="form-embed-area">
       <p><strong>Xtreme Cheer Registration Form goes here.</strong></p>
-      <p>Embed code: <code>&lt;iframe src="https://docs.google.com/forms/d/e/YOUR_ID/viewform?embedded=true" width="100%" height="900"&gt;&lt;/iframe&gt;</code></p>
+      <p>From Google Forms, click the three dots menu → <strong>Embed HTML</strong> → paste here.</p>
     </div>
   </div>
 
@@ -123,10 +86,10 @@
   <div style="margin-bottom:36px" id="xc-contract">
     <h4 style="font-family:'Fredoka',sans-serif;color:var(--pinkdeep);font-size:16px;margin-bottom:6px">Form 2: Commitment Contract</h4>
     <p style="font-size:14px;color:#6b6469;margin-bottom:10px">Parent and athlete signatures committing to the full season, competitions, camps, and team standards.</p>
-    <!-- SWAP: Replace placeholder div below with Google Form iframe embed -->
+    <!-- SWAP: Delete the div below and paste your Commitment Contract Google Form iframe here -->
     <div class="form-embed-area">
       <p><strong>Commitment Contract Form goes here.</strong></p>
-      <p>Embed code: <code>&lt;iframe src="https://docs.google.com/forms/d/e/YOUR_ID/viewform?embedded=true" width="100%" height="900"&gt;&lt;/iframe&gt;</code></p>
+      <p>From Google Forms, click the three dots menu → <strong>Embed HTML</strong> → paste here.</p>
     </div>
   </div>
 
@@ -134,7 +97,6 @@
     <strong>Prefer paper?</strong> Stop by the gym at 814 W 1425 N, Layton, UT 84041 or call <a href="tel:8015938484">801.593.8484</a>. Paper forms are available at the front desk.
   </div>
 </section>
-
 
 <footer class="site-footer">
   <div class="footer-inner">
@@ -146,7 +108,6 @@
     <div class="footer-col">
       <h4>Programs</h4>
       <a href="classes.html">All Classes</a>
-      <a href="schedule.html">Schedule &amp; Pricing</a>
       <a href="xtreme-cheer.html">Xtreme Cheer Team</a>
     </div>
     <div class="footer-col">
