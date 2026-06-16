@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Flippers Gymnastics &amp; Cheer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<div class="frame">
+
+<div class="mockup-note">
+  <b>Flippers mockup</b> &mdash; preview at axtorra.com/flippers/ &mdash; remove this bar and replace photo placeholders before going live.
+</div>
+
+<header>
+  <a href="index.html" class="logo-link">
+    <img class="logo" src="images/logo.png" alt="Flippers Gymnastics and Cheer">
+  </a>
+  <button class="menu-toggle" id="menuBtn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="navMenu">&#9776;</button>
+  <nav id="navMenu" role="navigation" aria-label="Main navigation">
+    <a href="index.html">Home</a>
+    <a href="classes.html">Classes</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="xtreme-cheer.html">Xtreme Cheer</a>
+    <a href="about.html">About</a>
+    <a href="contact.html" aria-current="page">Contact</a>
+  </nav>
+  <div class="hgroup">
+    <a href="tel:8015938484" class="phone">801.593.8484</a>
+    <a href="register.html" class="btn btn-pink header-btn">Register</a>
+  </div>
+</header>
+
+
+<div class="page-hero">
+  <h1>Contact Us</h1>
+  <p>We would love to meet your family. Stop by, give us a call, or send a message below.</p>
+</div>
+
+<section class="section" style="display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start">
+  <div>
+    <h2 style="font-family:'Fredoka',sans-serif;color:var(--pinkdeep);font-size:22px;margin-bottom:16px">Find Us</h2>
+    <table class="data-table" style="margin-bottom:20px">
+      <tr><th>Address</th><td>814 W 1425 N, Layton, UT 84041</td></tr>
+      <tr><th>Phone</th><td><a href="tel:8015938484">801.593.8484</a></td></tr>
+      <tr><th>Website</th><td><a href="http://lilflippers.com" target="_blank" rel="noopener">lilflippers.com</a></td></tr>
+      <tr><th>Hours</th><td>Call or see the posted schedule &mdash; hours vary by season</td></tr>
+    </table>
+
+    <div class="band-ph" style="height:200px;margin-top:8px">Map placeholder &mdash; embed a Google Maps iframe here</div>
+  </div>
+
+  <div>
+    <h2 style="font-family:'Fredoka',sans-serif;color:var(--pinkdeep);font-size:22px;margin-bottom:16px">Send a Message</h2>
+    <p style="font-size:14px;color:#6b6469;margin-bottom:16px">For registration, use the <a href="register.html">online registration form</a>. For general questions, fill out the form below.</p>
+    <form style="display:flex;flex-direction:column;gap:12px" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <div>
+        <label for="name" style="font-weight:600;font-size:14px;display:block;margin-bottom:4px">Your name</label>
+        <input id="name" name="name" type="text" required
+          style="width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px;font-family:inherit">
+      </div>
+      <div>
+        <label for="email" style="font-weight:600;font-size:14px;display:block;margin-bottom:4px">Email</label>
+        <input id="email" name="email" type="email" required
+          style="width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px;font-family:inherit">
+      </div>
+      <div>
+        <label for="msg" style="font-weight:600;font-size:14px;display:block;margin-bottom:4px">Message</label>
+        <textarea id="msg" name="message" rows="4" required
+          style="width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px;font-family:inherit;resize:vertical"></textarea>
+      </div>
+      <div class="callout" style="font-size:13px">
+        <strong>To activate this form:</strong> create a free account at <a href="https://formspree.io" target="_blank" rel="noopener">formspree.io</a>, create a new form, and replace <code>YOUR_FORM_ID</code> in this page's source with your form ID.
+      </div>
+      <button type="submit" class="btn btn-pink" style="align-self:flex-start">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<style>.section{display:grid} @media(max-width:760px){.section{grid-template-columns:1fr!important}}</style>
+
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <img src="images/logo.png" alt="Flippers" class="footer-logo">
+      <p class="tagline">Every kid has a flip in them.</p>
+      <p class="footer-sub">Layton, Utah</p>
+    </div>
+    <div class="footer-col">
+      <h4>Programs</h4>
+      <a href="classes.html">All Classes</a>
+      <a href="schedule.html">Schedule &amp; Pricing</a>
+      <a href="xtreme-cheer.html">Xtreme Cheer Team</a>
+    </div>
+    <div class="footer-col">
+      <h4>Gym</h4>
+      <a href="about.html">About Us</a>
+      <a href="register.html">Register</a>
+      <a href="contact.html">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <p>814 W 1425 N<br>Layton, UT 84041</p>
+      <a href="tel:8015938484" class="footer-phone">801.593.8484</a>
+      <a href="http://lilflippers.com" target="_blank" rel="noopener">lilflippers.com</a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2026 Flippers Gymnastics &amp; Cheer &nbsp;&bull;&nbsp; Layton, UT</p>
+  </div>
+</footer>
+
+</div>
+<script src="nav.js"></script>
+</body>
+</html>
